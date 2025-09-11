@@ -1,0 +1,3 @@
+#Ignore Large model Files
+model/*.h5
+model/*.keras
