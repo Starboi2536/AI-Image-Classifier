@@ -5,3 +5,7 @@ pillow
 **After the model has be train**
 matplotlib
 scikit-learn
+
+#Verison 2 requirements
+tensorflow-datasets
+scipy
