@@ -1,3 +1,4 @@
 #Ignore Large model Files
 model/*.h5
 model/*.keras
+/v2/src/model

@@ -1,4 +1,4 @@
-# AI Image Classifier (Cats vs Dogs)
+# AI Image Classifier Version 1  (Cats vs Dogs) 
 
 This is a beginner **AI Image Classifer** built with **TensorFlow** and **Streamlit**.
 The project demonstrates how to train and deploy a simple deep learning model that can distinguish between **cats** and **dogs**.
@@ -35,7 +35,7 @@ python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
 
-**3. Install dependencies **
+**3. Install dependencies (v1)**
 pip install -r requirements.txt
 
 **4. Download/Train the model**
@@ -48,9 +48,9 @@ Therefore the options are:
 streamlit run app.py
 ---
 
-Project Structure
+## Project Structure
 
-AI-Image-Classifier/
+AI-Image-Classifier/V1
 -app.py                  # Main Streamlit app
 -model/                  # Folder where trained model should be placed
 -requirements.txt        # Project dependencies
@@ -64,13 +64,70 @@ NOTE!!!
 
 ---
 
-Future Improvements
+## Future Improvements
 -Extend to multi-classification (classify plants)
 -Improve accuracy with data augmentation
 
 ---
+#Ai Image Classifier Version 2-Plants(Advanced)
 
-Auther
+---
+
+##Classes
+-Daisy
+-Dandelion
+-Rose
+-Sunflower
+-Tulip
+
+---
+
+## Features
+-Dataset automatically downloaded via TensorFlow Datasets
+-CNN model trained and saved in .keras format
+-Streamlit app for interactive predictions
+
+---
+
+#Project Structure (V2)
+AI-Image-Classifier/V2
+-src/        #Main folder with all train.py & download_dataset.py
+-app.py      # Main Streamlit app
+-model
+
+## How to Run Locally(V2)
+
+**1. clone repo
+``bash
+git clone https://github.com/Starboi2536/AI-Image-Classifier.git
+
+**2. Create a virtual environment(recommended)**
+python -m venv venv
+venv\Script\activate      #On Windows
+source venv/bin/activate  #On Mac/Linux 
+
+**3. Install dependencies **
+pip install -r requirements.txt
+
+**Download dataset
+-Note the the trained model is too large for Github so i recommend you train your own(train model should be placed in the model/folder:v2_plant_classifier_model.keras)
+-How?
+python v2/src/download_dataset.py 
+python v2/src/train.py
+
+**How to run app
+-streamlit run src/app.py 
+
+---
+##Future Improvements (V2)
+-Add tranfer learing(e.g MobileNet, EfficentNet)
+-Improve accuracy with data augmentation
+-Deploy to Streamlit Cloud/Docker
+
+--
+
+
+##Auther
 -Jonathan Malunga
 -LinkedIn:www.linkedin.com/in/jonathan-malunga-27b411230
 -GitHub:https://github.com/Starboi2536
