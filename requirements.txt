@@ -1,6 +1,9 @@
+#Version 1 requirements
 tensorflow>=2.15
 numpy
 pillow
+streamlit
+
 
 #After the model has be train
 matplotlib
@@ -9,3 +12,5 @@ scikit-learn
 #Verison 2 requirements
 tensorflow-datasets
 scipy
+tensorflow
+streamlit

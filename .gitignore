@@ -1,4 +1,9 @@
 #Ignore Large model Files
 model/*.h5
 model/*.keras
-/v2/src/model
+/v2/src/model/v2_plant_classifier_model.keras
+venv
+# Ignore models
+v2/model/
+*.h5
+*.keras

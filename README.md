@@ -1,4 +1,4 @@
-# AI Image Classifier Version 1  (Cats vs Dogs) 
+# AI Image Classifier Version 1  (Main Branch-Cats vs Dogs) 
 
 This is a beginner **AI Image Classifer** built with **TensorFlow** and **Streamlit**.
 The project demonstrates how to train and deploy a simple deep learning model that can distinguish between **cats** and **dogs**.
@@ -30,6 +30,8 @@ simple Streamlit web interface
 git clone https://github.com/Starboi2536/AI-Image-Classifier.git
 cd AI-Image-Classifier
 
+**Version 1 (Cats vs Dogs)
+- git checkout main
 
 **2. Create a virtual environment(recommended)**
 python -m venv venv
@@ -40,28 +42,23 @@ venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 
 **4. Download/Train the model**
- please not that the trained model (image_classifer_model.h5) is not included in this repo as the file was to large for Github
+ please not that the trained model (image_classifer_model.h5) is not included in this repo as the file was to large for Github.
 Therefore the options are:
-  -Download from link ()
-  -Train your own model and save it inside the model/ folder: "model.save("model/image_classifier_model.h5")" 
 
-#Run the app**
+  -Train your own model using the train.py file in the repo (v2/src/train.py) and save it inside the model/ folder: "model.save("model/image_classifier_model.h5")" 
+
+**Run the app**
 streamlit run app.py
 ---
 
 ## Project Structure
 
 AI-Image-Classifier/V1
--app.py                  # Main Streamlit app
+-src/
+-app.py          # Main Streamlit app
 -model/                  # Folder where trained model should be placed
 -requirements.txt        # Project dependencies
 -README.md               # Project documentation
-
----
-
-NOTE!!!
--The trained model file (.h5) is too large for GitHub(>100).
--A download link or training script will be provided later (in progress)
 
 ---
 
@@ -102,6 +99,9 @@ AI-Image-Classifier/V2
 ``bash
 git clone https://github.com/Starboi2536/AI-Image-Classifier.git
 
+**Version 2 (Flower classifier)
+- git checkout v2
+
 **2. Create a virtual environment(recommended)**
 python -m venv venv
 venv\Script\activate      #On Windows
@@ -117,7 +117,7 @@ python v2/src/download_dataset.py
 python v2/src/train.py
 
 **How to run app
--streamlit run src/app.py 
+-streamlit run  v2/src/app.py
 
 ---
 ##Future Improvements (V2)
