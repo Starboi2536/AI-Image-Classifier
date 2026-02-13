@@ -25,7 +25,7 @@ simple Streamlit web interface
 
 ## How to run Loacally
 **1. Clone the repo**
-```bash
+
 git clone https://github.com/Starboi2536/AI-Image-Classifier.git
 cd AI-Image-Classifier
 
