@@ -24,8 +24,9 @@ simple Streamlit web interface
 ---
 
 ## How to run Loacally
+
 **1. Clone the repo**
-```bash
+
 git clone https://github.com/Starboi2536/AI-Image-Classifier.git
 cd AI-Image-Classifier
 
@@ -44,7 +45,7 @@ Therefore the options are:
   -Download from link ()
   -Train your own model and save it inside the model/ folder: "model.save("model/image_classifier_model.h5")" 
 
-**Run the app**
+#Run the app**
 streamlit run app.py
 ---
 
