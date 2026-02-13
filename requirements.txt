@@ -2,7 +2,7 @@ tensorflow>=2.15
 numpy
 pillow
 
-**After the model has be train**
+#After the model has be train
 matplotlib
 scikit-learn
 
